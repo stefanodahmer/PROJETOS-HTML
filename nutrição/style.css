@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap');
+
+
+:root{
+--cor01:#C1C8E0;
+--cor02:#6C88E5;
+--cor03:#4f6bb1;
+--cor04:#3C6DE5;
+--cor05:#334061;
+--cor06:#001D66;
+
+--fonted-padrao: Arial, Verdana, Helvetica, sans-serif;
+--fonte-destaque:  'Bebas Neue', sans-serif;;
+--fonte-titulos: 'Ysabeau Office', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #c5ebd6;
+    font-family: var(--fonted-desaqtue);
+    
+}
+
+header{
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor04));
+}
+header>h1{
+    color: white;
+    font-weight: normal;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+header > p{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    width: 500px;
+    margin: auto;
+    
+}
+nav{
+    background-color: #15397c;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.9em;
+}
+main h1{
+   color: #001D66; 
+   font-family: var(--fonte-titulos);
+}
+main h2{
+    font-family: var(--fonte-titulos);
+    font-weight: bold;
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+}
+h3{
+    margin: 10px;
+    padding: 5px;
+}
+
+aside{
+    background-color: var(--cor02);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.412);
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+aside h3{
+    background-color: #001D66;
+    color: white;
+    padding: 20px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+footer{
+    background-color: #063d1e;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer a{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+nav >a:hover{
+    color: blue;
+}
+main a:hover{
+    color: blue;
+    text-decoration: underline;
+}

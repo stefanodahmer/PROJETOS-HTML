@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif; 
+           background-color: lightslategrey;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 20px;
+            margin: 20px;
+            width: auto;
+            height: auto
+        }
+        nav{
+            text-align: right;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        a:hover{
+            color: blue;
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping Tags</h1>
+        <nav>
+            <a href="https://cursoemvideo.com/" target="_blank">Link para meu site</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptas explicabo quis saepe facere officia, odit voluptate veniam! Molestiae suscipit repellendus sint earum pariatur delectus nesciunt assumenda dicta optio commodi?</p>
+                <aside>
+                    <p>Artigo escrito por <a href="https://instagram.com/stefanodahmer/" target="_blank">Stefano Fiorioli Dahmer</a></p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
